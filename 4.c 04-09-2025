@@ -1,0 +1,11 @@
+int start = 10;
+
+void setup(){
+  size(200,400);
+  for(int start = 10; start >= 0; start = start-1){
+  println(start);
+  if(start == 0){
+    println("Take off!");
+  }
+  }
+}
