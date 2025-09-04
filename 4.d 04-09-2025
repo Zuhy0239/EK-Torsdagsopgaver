@@ -1,0 +1,19 @@
+int start = 10;
+
+void setup(){
+  size(200,400);
+  for(int start = 10; start >= 0; start = start-1){
+    if (start == 3){
+      println("three");
+    }else if (start == 2){
+      println("two");
+    }else if (start ==1){
+      println("one");
+    }else {
+      println(start);
+    }
+  if(start == 0){
+    println("Take off!");
+    }
+  }
+}
